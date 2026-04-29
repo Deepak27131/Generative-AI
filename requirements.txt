@@ -1,8 +1,6 @@
-langchain
-langchain-core
-langchain-community
+
 langgraph
-langchain-openai
+langchain-community
 langchain-google-genai
 langchain-groq
 langchain-mistralai
@@ -36,3 +34,41 @@ beautifulsoup4
 lxml
 
 tqdm
+
+langchain
+
+
+# Vector Database
+
+chromadb
+
+# Embedding Models
+
+sentence-transformers
+
+# Document Loaders dependencies
+
+pypdf
+unstructured
+beautifulsoup4
+lxml
+
+# Text Processing
+
+tiktoken
+
+
+
+# API / App Layer (optional but common in RAG apps)
+
+fastapi
+uvicorn
+
+# UI (optional)
+
+streamlit
+
+# Utilities
+
+tqdm
+requests
